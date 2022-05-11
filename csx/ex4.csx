@@ -1,6 +1,6 @@
 
 
-public int[] limite (int[] n)
+public int[] limite (int n)
 {
     int[] x =new int[n];
     for(int i = 1; i < n; i++){
@@ -16,5 +16,5 @@ public void Retornar (int[] n)
         Console.WriteLine(item);
     }
 }
-int[] x = limite(new int[5]);
+int[] x = limite(5);
 Retornar(x);

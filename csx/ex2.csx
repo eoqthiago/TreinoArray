@@ -12,8 +12,8 @@ public int[] criarSequencia (int limite){
 }
 
 public void repetir (int[] n){
-    for(int i = 0; i < limite; i++){
-        Console.WriteLine(n[i]);
+    foreach(int item in n){
+        Console.WriteLine(item);
     }
 }
 

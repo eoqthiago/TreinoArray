@@ -12,7 +12,7 @@ public int[] criarSequenciaReverse (int limite){
     return x;
 }
 
-public void imprimir (int n){
+public void imprimir (int[] n){
     foreach(int item in n){
         Console.WriteLine(item);
     }
