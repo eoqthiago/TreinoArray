@@ -1,10 +1,10 @@
 function soma (n) {
     let x = 0;
     for (let i = 0; i < n.length; i++) {
-        x += n[i];
+        x += n[i] / 3;
         
     }
-    return x / 3;
+    return x ;
 }
 
 
